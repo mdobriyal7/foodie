@@ -18,9 +18,6 @@ const Cart = () => {
   const {
     data: cartData,
     isLoading,
-    isSuccess,
-    isError,
-    error,
   } = useGetCartItemsQuery("cartData", {
     refetchOnFocus: true,
     refetchOnMountOrArgChange: true,

@@ -18,7 +18,7 @@ const Menu = () => {
     }
   );
 
-  const [addToCart, { isLoading: isLoadingToCart, isUninitialized }] =
+  const [addToCart, { isLoading: isLoadingToCart,}] =
     useAddToCartMutation();
 
   let content;

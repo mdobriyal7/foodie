@@ -1,13 +1,9 @@
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
-import { BsCheck } from "react-icons/bs";
-
-// import { themeColors } from "../data/dummy";
 import { useScreenState } from "../../features/stateSlice";
 import { SwatchesPicker } from "react-color";
 
 const ThemeSettings= () => {
-  // const { setColor, setMode, currentMode, currentColor, setThemeSettings } = useStateContext();
   const { currentColor, currentMode, setMode, setColor, setThemeSettings } =
     useScreenState();
 

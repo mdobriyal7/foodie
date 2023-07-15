@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { MdRestaurant} from "react-icons/md";
 import { MdOutlineCancel } from "react-icons/md";
-import links, { Menu } from "../../data/dummy";
+import links from "../../data/dummy";
 import { useScreenState } from "../../features/stateSlice";
 
 

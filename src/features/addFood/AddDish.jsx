@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { IoMdAdd } from "react-icons/io";
 import { useDropzone } from "react-dropzone";
 import { toast } from "react-toastify";
@@ -49,7 +49,7 @@ function AddDish() {
 
   const [
     addNewFood,
-    { isLoading, isSuccess, isError, error, isUninitialized },
+    { isLoading, isSuccess, isUninitialized },
   ] = useCreateFoodMutation();
 
   const onDrop = (acceptedFiles) => {
